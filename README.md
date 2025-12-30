@@ -1,5 +1,8 @@
 # Sentiment-tagging with Naive-Bayes for CSE150A-Group-Project
 
+## Project Overview
+Using Naive Bayesian Classifiers, in this project I built a Tweet Sentiment Classifier with Python in Jupyter Notebook. By analyzing a bank of 16 million tweets and applying a sentiment coefficient to each word that appeared depending on the ratio of negative to positive tweets, frequency of use, as well as analyzing modifiers like "very" or "not" to adjust the sentiment value accordingly. My model was able to achieve 75% accuracy, which is about standard for Semantic classification models that don't use transformers or any kind of deeper reasoning.
+
 Note: To run this agent on your device, you must first download the dataset in csv format from kaggle (https://www.kaggle.com/datasets/kazanova/sentiment140/data), then add it to the project folder so that the notebook and the csv file are in the same directory.
 
 ## PEAS/Agent Analysis:
