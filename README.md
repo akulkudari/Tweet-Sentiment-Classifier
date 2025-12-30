@@ -3,17 +3,12 @@
 Note: To run this agent on your device, you must first download the dataset in csv format from kaggle (https://www.kaggle.com/datasets/kazanova/sentiment140/data), then add it to the project folder so that the notebook and the csv file are in the same directory.
 
 ## PEAS/Agent Analysis:
-* Describe your agent in terms of PEAS and give a background of your task at hand. 
-
 | Component in PEAS | Specification for component |
 |-------------------|-----------------------------|
 | **Performance**   | Maximize tagging accuracy, optimize run-time speed for real-time use, handling of newly encountered words that havent been encountered previously in the corpus|
 | **Environment**   | A list of 16 million user tweets from the kaggle sentiment140 dataset, tagged with sentiment for positive or negative sentiments.|
 | **Actuators**     | Output sentiment tag|
 | **Sensors**       | Reads in incoming word sequences as tweets, or raw text.|
-
-
-* What problem are you solving? Why does probabilistic modeling make sense to tackle this problem?
 
 Sentiment tagging is used in a variety of different fields, including customer analysis, opinion mining, political stance evaluation, and more. We aim to automatically classify the sentiment of incoming tweets using uncertainty modeling. Uncertainty modeling is important for this problem because it helps us determine the sentiment of an unknown string of text that has potentially never been encountered before. In non-probabilistic approaches, various issues can occur, such as unique words that haven’t been seen before, difficulty discerning noisy text with lots of ambiguous language. These kinds of approaches can include keyword matching, or threshold-based heuristics. 
 
