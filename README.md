@@ -6,7 +6,7 @@ Using Naive Bayesian Classifiers, in this project I built a Tweet Sentiment Clas
 Note: To run this agent on your device, you must first download the dataset in csv format from kaggle (https://www.kaggle.com/datasets/kazanova/sentiment140/data), then add it to the project folder so that the notebook and the csv file are in the same directory.
 
 ### Algorithms, Libraries, and Frameworks Used
-Naive Bayesian Statistical Modeling, Pandas, NLTK Corpus, Hyperparameter Tuning
+Naive Bayesian Statistical Modeling, Pandas, NLTK Corpus
 
 ## PEAS/Agent Analysis:
 | Component in PEAS | Specification for component |
